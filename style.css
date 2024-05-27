@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.pricing-testimonial{
+    width: 100%;
+    height: auto;
+    background-color: #121723;
+}
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.logo-container{
+    width: 25px;
+    height: auto;
+}
+
+.logo-container img{
+    width: 100%;
+    height: auto;
+}
+
+.nav-menu {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.nav-menu p{
+    font-size: x-small;
+    color: white;
+    font-weight: 400;
+}
+
+.log-in-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    column-gap: 0.4rem;
+}
+
+.log-in-container p{
+    font-size: x-small;
+    font-weight: 300;
+    color: white;
+}
+
+.log-in-container i{
+    color: white;
+    font-size: 15px;
+
+}
+
+.pricing-hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+.pricing-hero h6{
+    color: #6B74DF;
+}
+
+.pricing-hero h1{
+    color: white;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.pricing-hero p{
+    color: #A5A9B0;
+    text-align: center;
+    width: 30rem;
+    font-weight: 300;
+    font-size: small;
+    line-height: 1.3rem;
+}
+.month-year{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.monthly-annually{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E232E;
+    width: fit-content;
+    height: auto;
+    padding: 0.2rem 0.3rem;
+    border-radius: 4rem;
+    column-gap: 0.5rem;
+}
+
+.month{
+    background-color: #585BEF;
+    border-radius: 4rem;
+    padding: 0.2rem 0.4rem;
+}
+
+.month p{
+    color: white;
+    font-size: xx-small;
+}
+
+.annually{
+    width: fit-content;
+    height: auto;
+}
+
+.annually p{
+    color: white;
+    font-size: xx-small;
+    padding: 0 0.2rem 0 0;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    padding: 2rem 4rem;
+}
+
+.card-one{
+    width: 25%;
+    height: 24rem;
+    padding: 2rem 2rem 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-width: 0.06rem;
+    border-color: #2A2F39;
+    border-style: solid;
+    border-radius: 1rem;
+}
+
+.card-one h6{
+    color: white;
+    font-weight: 600;
+    font-size: small;
+    margin-bottom: 0.5rem;
+}
+
+.card-one p{
+    width: 14rem;
+    height: auto;
+    color: #A5A9B0;
+    text-align: left;
+    font-weight: 300;
+    font-size: x-small;
+    line-height: 1.3rem;
+    padding: 1rem 0 0 0;
+}
+
+.cost{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.cost  h1{
+    color: white;
+}
+
+.cost p{
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.card-one button{
+    width: 100%;
+    height: auto;
+    background-color: #2A2F39;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: x-small;
+    padding: 0.5rem 0.3rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.card-one ul{
+    color: white;
+    font-size: x-small;
+    line-height: 1.5rem;
+
+}
+
+.popular{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.most{
+    width: 30%;
+    height: auto;
+    background-color: #585BEF;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.most h3{
+    font-size: xx-small;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
